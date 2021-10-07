@@ -1,16 +1,13 @@
-
 <?php
-	$host='localhost';
-    $user='root';
-    $pass='';
-    $database='login';
+    $server = "localhost";
+    $user = "root";
+    $pass = "";
+    $dbname = "login";
+
+    $connect = mysqli_connect($server, $user, $pass, $dbname);
+    if ($connect) {
     
-    $konek=mysqli_connect($id_user, $username, $password);
-    
-    mysqli_select_db($konek, $database);
-    if ($konek){
-    echo "success";
     } else {
-    echo "failure";
+    die("Connection Failed: " .mysqli_connect_error());
     }
 ?>
