@@ -13,7 +13,7 @@ if($cek > 0){
 	$_SESSION['status'] = "login";
 	header("location:home.php");
 }else{
-	header("location:home.php");	
+	header("location: index.php");	
 }
  
 ?>
