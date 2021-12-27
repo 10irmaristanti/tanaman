@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V18</title>
+	<title>Tanaman</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -34,7 +34,7 @@
 			<div class="wrap-login100">
 			<form action="login.php" method="post" onSubmit="return validasi()" class="login100-form validate-form" >
 					<span class="login100-form-title p-b-43">
-						Login to continue
+						Login To Entry Data
 					</span>
 					
 					
